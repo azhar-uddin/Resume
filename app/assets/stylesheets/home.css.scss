@@ -1,0 +1,202 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.background {
+  background-color: #989898;
+  padding: 20px 10px 0 10px;
+}
+
+.container {
+  background-color: #F5F7FF;
+  width: 950px;
+  margin: 0 auto;
+  border: 2px solid #D3E2F3;//D3E2F3;
+  border-radius: 10px;
+}
+
+div.image {
+  width: 112px;
+  height: 143px;
+  background: #DDD;
+  border: 1px solid #CCC;
+  float: left;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  img {
+    width: 104px;
+    height: 135px;
+    border: 1px solid #CCC;
+    margin: 3px 0 0 3px;
+  }
+}
+
+.header {
+  width:auto;
+  height:150px;
+  padding: 30px;
+  h1 {
+    margin: 8px 0 0 30px;
+    color: #666;
+    text-shadow: 1px 1px white;
+    font-weight: normal;
+    font-size: 50px;
+  }
+  h3.tag {
+    margin: 16px 0 0 31px;
+    text-shadow: 1px 1px white;
+    font-weight: normal;
+    font-size: 20px;
+  }
+}
+
+.body {
+  border-top:1px solid white;
+  padding: 30px;
+}
+
+.name {
+  float: left;
+  display: inline-block;
+  padding-right: 20px;
+  border-right: 2px dotted #BBB;
+  height: 143px;
+}
+
+.contact {
+  float: right;
+  width: auto;
+  list-style: none;
+  margin: 0;
+  li {
+    padding: 10px 0 0px 0;
+    text-align: center;
+    img {
+      width: 16px;
+      height: 16px;
+      margin: 0 12px -3px 0;
+    }
+  }
+}
+
+h1, p {
+ margin: 0px;
+}
+
+.tabs {
+  margin: 0;
+  padding-left: 30px;
+  border-bottom: 1px solid #42b4e6;//D3E2F3;
+  li {
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    font-size: 15px;
+    border: 2px solid #DDD;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    a {
+      color: black;
+      text-decoration: none;
+      margin: 0px;
+      padding: 5px 20px 5px 20px;
+      display: block;
+      font-weight: bold;
+    }
+  }
+}
+
+.social {
+  margin: 0;
+  padding: 10px 10px 10px 20px;
+  li {
+    display: inline-block;
+    padding: 10px;
+  }
+}
+
+.active, .tabs li:hover {
+  background-color: #42b4e6 !Important;
+  font-weight: bold;
+  border: 2px solid white !important;
+  border-bottom: none !important;
+  a {
+    color: white !important;
+  }
+}
+
+.box {
+  padding-bottom: 20px;
+  margin: 0;
+  clear: both;
+  h3 {
+    font-size: 17.5px;
+  }
+  li {
+    padding: 10px;
+    font-family: Open Sans;
+  }
+}
+
+.footer {
+  text-align: center;
+  color: black;
+  padding: 10px;
+  a {
+    color: #EFEFEF;
+  }
+}
+
+h3, h5, p, ul, li, b {
+  clear: both;
+}
+
+.hdng, .headingright {
+  background-color: #D3E2F3;//9ed7f0;B3E2F0
+  padding: 5px;
+  border: 1px solid #BBB;
+  border-radius: 2px;
+  float: left;
+  width: auto;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.exp {
+  padding: 5px;
+  float: left;
+}
+
+.headingright {
+  float: right !important;
+}
+
+.posts {
+  border: 1px solid #BBB;
+  clear:both;
+  width: 100%;
+  th {
+    background-color: #EFEFEF;
+    border: 1px solid #BBB;
+    padding: 5px;
+    width: 30%;
+    height: 30px;
+    text-align: left;
+  }
+  td {
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #BBB;
+  }
+}
+.experience, .projects {
+  h3.hding {
+    background-color: #bbb;
+    padding-left: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+}

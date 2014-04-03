@@ -1,0 +1,24 @@
+.header
+  .image
+    =image_tag "azhar1.jpg"
+  .name
+    %h1 Mohammad Azharuddin
+    %h3.tag 
+      RoR Developer @ 
+      %b RubyEffect
+  %div{'style' => 'float:right'}
+    %h5{'style' => 'text-align:center;margin:0'} Contact
+    %ul.contact
+      %li
+         +91-8125119699
+      %li
+        =link_to "www.mdazhar.in", "http://about.me/azharuddin", :target => "blank"
+      %li{title: "Please Email to Know"}
+         md.azhar@rubyeffect.com
+    %ul.social
+      %li
+        = link_to image_tag( 'facebook_32.png'), 'http://www.facebook.com/azhar.cbz', :target => "blank"
+      %li
+        = link_to image_tag( 'linkedin_32.png'), 'http://www.linkedin.com/profile/view?id=189529894', :target => "blank"
+      %li
+        = link_to image_tag( 'twitter_32.png'), 'https://twitter.com/MdAzr', :target => "blank"

@@ -1,0 +1,6 @@
+%ul.tabs
+  %li.is_home{class: is_active('home')}= link_to "About", root_path, :remote => true
+  %li.is_education{class: is_active('education')}= link_to "Education", education_home_index_path, :remote => true
+  %li.is_projects{class: is_active('projects')}= link_to "Projects and Experience", projects_home_index_path, :remote => true
+  %li.is_skills{class: is_active('skills')}= link_to "Skills & Achievements", skills_home_index_path, :remote => true
+  %li.is_personal{class: is_active('personal')}= link_to "Personal", personal_home_index_path, :remote => true
