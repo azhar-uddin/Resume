@@ -11,6 +11,7 @@
       = render "shared/tabs"
       .body
         = yield
+        
   %p.footer 
     Copyright © 2014 
     = link_to "mdazhar.in", "http://about.me/azharuddin", :target => "blank"
