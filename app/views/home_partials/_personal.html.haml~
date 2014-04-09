@@ -1,0 +1,10 @@
+%div.box
+  %h4.hdng Summary
+  %p Bachelor of Engineering Graduate with academic concentration in Electronics and Communication. Strong skills & background in Programming, Algorithms, Computer Architecture & Digital Design.
+  %br
+  %b Skills:
+  %p C, Ruby, Rails.
+  %p HTML, CSS, Javascript.
+  %p Web Apps.
+  %p VLSI System Design.
+
